@@ -1,0 +1,59 @@
+/* setting.css /
+body {
+    background: linear-gradient(to bottom right, rgb(143, 225, 255), rgb(204, 255, 208));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    color: #4d4d4d;
+    text-shadow: 4px 5px 6px #ffffff;
+    margin-top: 40px;
+}
+
+body {
+    padding-top: 50px; / メニューバーの高さに応じて調整 /
+}
+
+nav {
+    display: flex; / 横並びにする /
+    justify-content: space-around; / 均等に配置 /
+    align-items: center; / 垂直方向に中央揃え /
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed; / ポジションを固定 /
+    top: 0px; / 一番上に設置 /
+    left: 0px;
+    width: 100%;
+    z-index: 999; / どの要素よりも上にくるように /
+}
+
+li {
+    flex: 1; / 各要素が均等に伸びるようにする /
+    text-align: center; / リンクを中央揃え /
+    border-right: 1px solid #bbbbbb;
+}
+
+li:last-child {
+    border-right: none; / 最後の要素にはボーダーをつけない /
+}
+
+li a {
+    color: rgb(5, 165, 251);
+    text-decoration: none;
+    display: block; / aタグをブロック要素にする /
+    transition: background-color 0.3s, color 0.3s; / 色変化にアニメーションを追加 /
+    padding: 14px 0; / 縦方向のパディング /
+}
+
+.mypage {
+    background-color: rgb(176, 249, 237); / 背景色の変更 /
+    color: rgb(5, 165, 251); / 文字色の変更 /
+}
+
+li a i {
+    margin-right: 8px; / アイコンとテキストの間にスペースを追加 */
+
